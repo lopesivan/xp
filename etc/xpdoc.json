@@ -1,0 +1,65 @@
+{
+  "id":{
+    "version": "2.1",
+    "name": "xp"
+  },
+  "xp": [
+    {
+      "command": "add",
+      "description": "adiciona path de um único arquivo, usando como key o nome do arquivo"
+    },
+    {
+      "command": "commands",
+      "description": "lista todas as tasks/comandos"
+    },
+    {
+      "command": "completions",
+      "description": "lista todas as opções"
+    },
+    {
+      "command": "copy",
+      "description": "copia um arquivo único que foi adicionado com a task add"
+    },
+    {
+      "command": "keys",
+      "description": "lista as chaves do redis"
+    },
+    {
+      "command": "ls",
+      "description": "lista as chaves do redis"
+    },
+    {
+      "command": "link",
+      "description": "linka um arquivo único que foi adicionado com a task add"
+    },
+    {
+      "command": "x",
+      "description": " lista apenas os x-projects"
+    },
+    {
+      "command": "e",
+      "description": "edita arquivo com o vim"
+    },
+    {
+      "command": "new",
+      "description": "cria"
+    },
+    {
+      "command": "file",
+      "description": "um arquivo conforme o modelo selecionado"
+    },
+    {
+      "command": "project",
+      "description": "um projeto conforme o modelo selecionado"
+    },
+    {
+      "command": "git",
+      "description": "Git push: username, password, how to avoid?"
+    },
+    {
+      "command": "rm",
+      "description": "remove um chave"
+    }
+  ]
+}
+

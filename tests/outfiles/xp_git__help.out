@@ -1,0 +1,12 @@
+
+Showing usage:
+
+--help
+		Git push: username, password, how to avoid?
+
+--debug
+		enable debug mode
+
+--set-ssh-git|-no-pass
+		Associate the SSH key with the remote repository
+
