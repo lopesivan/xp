@@ -1,0 +1,21 @@
+{
+  "xp": {
+    "type": "main"
+  },
+
+  "modules/*.sh": {
+    "type": "modules",
+    "skeleton": "modules"
+  },
+
+  "tasks/*.sh": {
+    "type": "tasks",
+    "skeleton": "tasks"
+  },
+
+  "tests/*.sh": {
+    "type": "tests",
+    "skeleton": "tests"
+  }
+}
+
