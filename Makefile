@@ -6,7 +6,7 @@ include etc/rules/tests.mk
 include etc/rules/run.mk
 
 install: install-$(PROJECT)
-	@-cp -r etc exec modules tasks tests xp $(PREFIX)
+	@-cp -r etc exec modules tasks tests xp $(prefix)
 
 clean:
 	@-rm -rf $(prefix)/bin/$(PROJECT)
