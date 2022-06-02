@@ -5,8 +5,10 @@ include etc/rules/build.mk
 include etc/rules/tests.mk
 include etc/rules/run.mk
 
-install: install-$(PROJECT)
+copy-$(PROJECT):
 	@-cp -r etc exec modules tasks tests xp $(prefix)
+
+install: copy-$(PROJECT) install-$(PROJECT)
 
 clean:
 	@-rm -rf $(prefix)/bin/$(PROJECT)

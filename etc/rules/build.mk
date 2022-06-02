@@ -3,5 +3,5 @@ prefix   ?= /usr/local
 
 install-$(PROJECT):
 	-mkdir -p $(prefix)/bin
-	ln -s exec $(prefix)/bin/$(PROJECT)
+	ln -s $(prefix)/exec $(prefix)/bin/$(PROJECT)
 
