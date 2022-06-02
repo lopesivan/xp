@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+path=$PWD
+(
+  cd $(dirname $(readlink -f $(which xp)))
+  LOCALPATH=$path bang run xp $@
+)
+exit 0

@@ -1,0 +1,66 @@
+b.module.require opt
+
+b.module.require options
+b.module.require config
+b.module.require exception
+b.module.require exit
+
+
+function try_again () {
+    echo \
+    "Ocorreu um erro, verifique o output ou rode os testes para descobrir o erro"
+}
+
+# Run!
+function run () {
+
+    if ! xp.config.load; then
+        return 1
+    fi
+
+    if [ -n "$1" ]; then
+
+        case x$1 in
+        xadd|xcommands|xcompletions|xcopy|xkeys|xlink|xls|xrm|xx|xe|xi|xc)
+            b.task.run "$@"
+        ;;
+        xgit)
+            b.task.run "$@"
+        ;;
+        xtodo)
+            b.task.run "$@"
+        ;;
+        # cansi
+        xadt)
+            b.task.run "$@"
+        ;;
+        xnew)
+            b.task.run "$@"
+        ;;
+        xinit)
+            b.task.run "$@"
+        ;;
+        xtasks)
+            echo enable $@:
+            b.task.run "commands"
+        ;;
+        xoptions)
+            echo enable $@:
+            b.task.run "completions"
+        ;;
+        x*)
+            b.task.run "default" "$@"
+        ;;
+        esac
+    else
+        b.task.run "usage"
+    fi
+}
+
+b.try.do run "$@"
+b.catch FileNotFoundException xp.exception.file_not_found
+b.catch StringIsNullException xp.exception.string_is_null
+#b.finally try_again
+b.try.end
+
+# vim: set ts=4 sw=4 tw=78 ft=sh:

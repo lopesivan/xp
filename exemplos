@@ -1,0 +1,196 @@
+xp new
+xp new
+xp new
+xp new cansi
+xp new cansi
+xp new  cansi -l
+xp new cansi  -l
+xp new cansi -l
+xp new cansi -l
+xp new cansi -l 2 -s -y test.yml
+xp new cansi -l > a
+xp new cansi -n
+xp new cansi  -n 1
+xp new cansi  -n 1
+xp new cansi -n 1
+xp new cansi -n 1 -p
+xp new cansi -n 1 -p -y adt.yml
+xp new cansi -n 1 -p -y aluno.yml
+xp new cansi -n 1 -p -y array.yml
+xp new cansi -n 1 -p -y ddd.yml
+xp new cansi -n 1 -s -y aluno.yml
+xp new cansi -n 1 -s -y array.yml
+xp new cansi  -n 1 -t
+xp new cansi  -n 1 -t
+xp new cansi -n 1 -t
+xp new cansi -n 2
+xp new cansi -n 2
+xp new cansi -n 2 -p -y hhh
+xp new cansi -n 2 -p -y led.yml
+xp new cansi -n 2 -p -y lolo
+xp new cansi -n 2 -s -y led.yml
+xp new cansi -n 2 -s -y test.yml
+xp new cansi -n 2 -t
+xp new cansi -n 2 t -p -y lolo
+xp new cansi -n 2 t -y lolo
+xp new cansi -n 2 -y
+xp new cansi -n 2 -y hhh
+xp new cansi -n 2  -y lolo
+xp new cansi -n 2 -y lolo
+xp new cansi -n 3 -p -y state.yml
+xp new cansi -n 3 -s -y state.yml
+xp new cansi -n 3 -t
+xp new cansi -n 4 -s -y array.yml
+xp new cansi -n 4 -s -y test.tml
+xp new cansi -n 4 -s -y test.yml
+xp new cansi -n 4 -t
+xp new cansi -p
+xp new cansi -p
+xp new cansi-patterns
+xp new cansi-patterns --help
+xp new cansi-patterns  -l
+xp new cansi-patterns -l
+xp new cansi-patterns -l
+xp new cansi-patterns -n
+xp new cansi-patterns -n 1
+xp new cansi-patterns -n 1 -p -y ../adt.yml
+xp new cansi-patterns -n 1 -p -y adt.yml
+xp new cansi-patterns -n 1 -p -y adt.yml
+xp new cansi-patterns -n 1 -s -y
+xp new cansi-patterns -n 1 -s -y ../adt.yml
+xp new cansi-patterns -n 1 -s -y adt.yml
+xp new cansi-patterns -n 1 -s -y adt.yml
+xp new cansi-patterns -n 1 -t
+xp new cansi-patterns -n 1 -t
+xp new cansi-patterns -n 1 -t
+xp new cansi-patterns -n 1 -y hhh
+xp new cansi-patterns -n 4 -p -y array.yml
+xp new cansi-patterns -n 4 -p -y test.yml
+xp new cansi-patterns -n 4 -s -y array.yml
+xp new cansi-patterns -n 4 -s -y test.yml
+xp new cansi-patterns -n 4 -t
+xp new cansi-patterns -n 4 -t
+xp new cansi-patterns -n 4 -y array.yml
+xp new cansi -p -n 2
+xp new cansi -p -n 2 -y
+xp new cansi -p -n 2 - y hhh
+xp new cansi -p -y
+xp new file
+xp new file
+xp new file -d
+xp new file --debug
+xp new file --debug -l
+xp new file --debug -n kiki
+xp new file --help
+xp new file --help --list
+xp new file kiki
+xp new file --list
+xp new file -list
+xp new file -n gradle
+xp new file -n kiki
+xp new file  -n kiko
+xp new file -n kiko
+xp new file  -n KIkolograma
+xp new kiko
+xp new  kk
+xp new -l
+xp new project
+xp new project
+xp new project --debug -n kiko -p lolo
+xp new project --debug -p
+xp new project --debug -p lolo
+xp new project --help
+xp new project -l
+xp new project -n kiko
+xp new project -n kiko -p cassio
+xp new project -n kiko -p jjjd
+xp new project -n kiko -p lolo
+xp new project -n kiko -p www.222juca.com.br
+xp new project -n kiko -p www.juca.br
+xp news
+xp new t
+xp new template
+xp new  template
+xp new template
+xp new template
+xp new template -d
+xp new template -d
+xp new template --debug
+xp new template --debug
+xp new template --debug   -l
+xp new template --debug  -l
+xp new template --debug -l
+xp new template --debug  -l -n kkk
+xp new template --debug -l  -n kkk
+xp new template --debug   -l -n sss
+xp new template --debug -l -p
+xp new template --debug -l -s
+xp new template --debug -l  -y
+xp new template --debug -l -y
+xp new template --debug -l  -y aaa
+xp new template --debug -l -y aaa
+xp new template --debug -l -y "aaa"
+xp new template --debug -l  --yaml aaa
+xp new template --debug -l --yaml "aaa"
+xp new template --debug -l --yaml"aaa"
+xp new template --debug -l  -y kkk
+xp new template --debug -l  -y www
+xp new template --debug  -n sss
+xp new template --debug  -p
+xp new template --debug  -p -y
+xp new template --debug  -p -y kk
+xp new template --debug  -p -yml
+xp new template --debug -s
+xp new template --debug -s -p
+xp new template --debug   -y kk
+xp new template -d -l
+xp new template -h
+xp new template --help
+xp new template  -l
+xp new template  -l
+xp new template -l
+xp new template -l
+xp new template -l
+xp new template -L
+xp new template -l --help
+xp new template -n1
+xp new template -n 1
+xp new template -n 1
+xp new template -n 1 -p
+xp new template -n 1 -p -y
+xp new template -n 1 -p -y a
+xp new template -n 1 -p -y adt.yml
+xp new template -n 1 -p -y cmd.yml
+xp new template -n 1 -p -y ddd.yml
+xp new template -n 1 -s
+xp new template -n 1 -s -y a
+xp new template -n 1 -s -y adt.yml
+xp new template -n 1 -s -y cmd.yml
+xp new template -n 1 -s -y ddd.yml
+xp new template -n 1 -s -y kk
+xp new template -n 1 -s -y $PWD/adt.yml
+xp new template  -n 1 -t
+xp new template -n 1 -t
+xp new template -n 1 -t
+xp new template -n 1 --template
+xp new template -n 1 -t -y kk
+xp new template -n 2 -p -y ip.yml
+xp new template -n 2 -s -y ip.yml
+xp new template -n 2 -s -y $PWD/adt.yml
+xp new template -n 2 -t
+xp new template -n 3 -p -y autotools.yml
+xp new template -n 3 -s -y autotools.yml
+xp new template -n 3 -t
+xp new template -n 3 -t
+xp new template -n 3 -y autotools.yml
+xp new template -n kk
+xp new template -p
+xp new template -p -y hh
+xp new template -s
+xp new template -s --help
+xp new template  -t
+xp new template -t
+xp new template -t
+xp new template --template
+xp new template -y
+xp new template -y

@@ -1,0 +1,21 @@
+
+Showing usage:
+
+--debug
+		enable debug mode
+
+--help
+		display this help and exit
+
+--version
+		output version information and exit
+
+--add|-a
+		adiciona path dos arquivos presentes no diretório
+
+--list|-l
+		lista os paths dos x-projects
+
+--name|-n <value>		
+		Specify name to be used
+
