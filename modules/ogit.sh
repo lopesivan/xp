@@ -3,6 +3,8 @@ function xp.ogit.load () {
   b.opt.add_flag --help "$(b.get "xp.config.help_message_git")"
   b.opt.add_flag --debug "enable debug mode"
 
+  b.opt.add_flag --hub "Set project to remote repository"
+
   b.opt.add_flag --set-ssh-git "Associate the SSH key with the remote repository"
   b.opt.add_alias --set-ssh-git -no-pass
 
