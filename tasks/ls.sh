@@ -15,7 +15,7 @@ function btask.ls.run() {
             echo "1111"
 			redis-cli ZRANGE $1 0 -1
 		else
-            if [[ "$2" =~ 's-*' ]]; then
+            if [[ "$1" =~ 's-' ]]; then
             echo "2222"
                 redis-cli LRANGE $1 0 -1
             else
