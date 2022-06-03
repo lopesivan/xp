@@ -10,7 +10,7 @@ _xp()
         # 1 argumento
         if [ ${#words[*]} -lt 5 ]; then
             case x${words[1]} in
-                xe|xi|xc|xls|xrm|xcopy|xlink)
+                xe|xi|xc|xls|xrm|xcopy|xlink|xcat)
                     unset words[0]
                     unset words[$COMP_CWORD]
                     local completions=$(xp keys "${words[@]}")
