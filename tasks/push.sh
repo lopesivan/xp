@@ -19,8 +19,6 @@ function btask.push.run() {
 				# echo $f
 			done | wc -l | sed 's/^.*/add: & lines/'
 
-	else
-		redis-client 6 RPUSH s-$name $1
 	fi
 
 	exec 6>&- # close the connection
