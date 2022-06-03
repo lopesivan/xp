@@ -12,9 +12,9 @@ function btask.ls.run() {
 	if [ $# -eq 1 ]; then
 		if redis-cli TYPE $1 | grep -q 'zset'; then
 			redis-cli ZRANGE $1 0 -1
-		# else
-		# 	redis-cli get $1 |
-		# 		sed "s/^/$(tput bold) /"
+		else
+			redis-cli get $1 |
+				sed "s/^/$(tput bold) /"
 		fi
 	else
 		redis-cli keys \* | sort |
