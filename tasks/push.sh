@@ -13,7 +13,7 @@ function btask.push.run() {
 		local name=$2
 		echo : $name :
 		echo : ${LOCALPATH} :
-		cat - | sed 's/"/\"/g' |
+		cat - |
 			while read f; do
 				redis-client 6 RPUSH s-$name "$f"
 				# echo $f
