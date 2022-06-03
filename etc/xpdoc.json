@@ -41,6 +41,10 @@
       "description": "edita arquivo com o vim"
     },
     {
+      "command": "cat",
+      "description": "mostra o conteudo de um arquivo em stdout"
+    },
+    {
       "command": "i",
       "description": "cria lista de entrada"
     },
