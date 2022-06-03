@@ -15,7 +15,7 @@ function btask.push.run() {
 		echo : ${LOCALPATH} :
 		cat - |
 			while read f; do
-				redis-client 6 RPUSH s-$name $f
+				redis-client 6 RPUSH s-$name "$f"
 				# echo $f
 			done | wc -l | sed 's/^.*/add: & lines/'
 
