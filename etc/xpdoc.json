@@ -45,6 +45,10 @@
       "description": "mostra o conteudo de um arquivo em stdout"
     },
     {
+      "command": "pop",
+      "description": "Array reply: list of popped elements, or nil when key does not exist"
+    },
+    {
       "command": "i",
       "description": "cria lista de entrada"
     },

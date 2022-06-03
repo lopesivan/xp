@@ -21,7 +21,7 @@ function run () {
     if [ -n "$1" ]; then
 
         case x$1 in
-        xadd|xcommands|xcompletions|xcopy|xkeys|xlink|xls|xrm|xx|xe|xcat|xi|xc)
+        xadd|xcommands|xcompletions|xcopy|xkeys|xlink|xpop|xls|xrm|xx|xe|xcat|xi|xc)
             b.task.run "$@"
         ;;
         xgit)
