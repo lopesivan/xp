@@ -55,14 +55,14 @@ function btask.git.run() {
 
 	if b.opt.has_flag? --hub; then
 		cd $LOCALPATH
-        cat <<-EOF
+        cat <<EOF
         git remote -v
         hub remote remove origin
         hub remote add origin
         git remote -v
         git branch -m master main
         git push --set-upstream origin main
-        EOF
+EOF
 	fi
 
 	if b.opt.has_flag? --set-ssh-git; then
