@@ -55,7 +55,7 @@ function btask.git.run() {
 
 	if b.opt.has_flag? --hub; then
 		cd $LOCALPATH
-        cat <<EOF
+        cat <<EOF| sed 's/^[ ]*//'
         git remote -v
         hub remote remove origin
         hub remote add origin
