@@ -16,6 +16,12 @@ _xp()
                     local completions=$(xp keys "${words[@]}")
                     COMPREPLY=( $(compgen -W "$completions" -- "$word") )
                 ;;
+                xpop)
+                    unset words[0]
+                    unset words[$COMP_CWORD]
+                    local completions=$(xp s "${words[@]}")
+                    COMPREPLY=( $(compgen -W "$completions" -- "$word") )
+                ;;
                 xcp|xln)
                     unset words[0]
                     unset words[$COMP_CWORD]

@@ -37,6 +37,10 @@
       "description": " lista apenas os x-projects"
     },
     {
+      "command": "s",
+      "description": " lista apenas os s-stacks"
+    },
+    {
       "command": "e",
       "description": "edita arquivo com o vim"
     },
