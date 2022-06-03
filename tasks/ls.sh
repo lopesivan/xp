@@ -10,11 +10,17 @@ function btask.ls.run() {
 	exec 6<>/dev/tcp/localhost/6379                    # open the connection
 
 	if [ $# -eq 1 ]; then
+
+
 		if redis-cli TYPE $1 | grep -q 'zset'; then
 			redis-cli ZRANGE $1 0 -1
 		else
-			redis-cli get $1 |
-				sed "s/^/$(tput bold) /"
+            if [[ "$1" =~ 's-*' ]]; then
+                redis-cli LRANGE $1 0 -1
+            else
+			    redis-cli get $1 |
+				    sed "s/^/$(tput bold) /"
+            fi
 		fi
 	else
 		redis-cli keys \* | sort |

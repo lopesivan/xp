@@ -10,12 +10,8 @@ function btask.pop.run() {
 		source ${HOME}/developer/redis-bash/redis-bash-lib # include the library
 		exec 6<>/dev/tcp/localhost/6379                    # open the connection
 
-        if [ -n "$2" ]; then
-		    redis-cli LRANGE $1 0 -1
-        else
 		# isOK
-		    redis-cli LPOP $1
-        fi
+		redis-cli LPOP $1
 
 		# close the connection
 		exec 6>&-
