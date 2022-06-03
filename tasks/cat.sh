@@ -20,7 +20,7 @@ function btask.cat.run() {
                     fzf )
             fi
             [ -n "$file" ] && {
-                vim $file
+                cat $file
             }
         else
             redis-cli get $1 | xargs cat
