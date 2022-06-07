@@ -7,7 +7,7 @@ function btask.pop.run() {
 	fi
 
 	if [ -n "$1" ]; then
-		source ${HOME}/developer/redis-bash/redis-bash-lib # include the library
+		source __REDIS_BASH_LIB__ # include the library
 		exec 6<>/dev/tcp/localhost/6379                    # open the connection
 
 		# isOK
