@@ -6,7 +6,7 @@ include etc/rules/tests.mk
 include etc/rules/run.mk
 
 copy-$(PROJECT):
-	@-cp -r etc exec modules tasks tests xp $(prefix)
+	@-cp -r etc exec modules tasks tests $(NAME) $(prefix)
 
 install: copy-$(PROJECT) install-$(PROJECT)
 
