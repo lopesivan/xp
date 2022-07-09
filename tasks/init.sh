@@ -1,7 +1,7 @@
 # tasks/init.sh
 function btask.init.run() {
 
-    local file="$(dirname $(readlink -f $(which xp)))/etc/completion.bash"
+    local file="$(dirname $(readlink -f $(which xp)))/etc/xp.completion.bash"
 
     if [ -n "$file" ]; then
         if [ -e "$file" ]; then
