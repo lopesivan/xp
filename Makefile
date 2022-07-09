@@ -1,9 +1,9 @@
 VERSION   = 0.1
 NAME      = xp
 
-include etc/rules/build.mk
-include etc/rules/tests.mk
-include etc/rules/run.mk
+include etc/.rules/build.mk
+include etc/.rules/tests.mk
+include etc/.rules/run.mk
 
 copy-$(PROJECT):
 	@-cp -r etc exec modules tasks tests $(NAME) $(prefix)
