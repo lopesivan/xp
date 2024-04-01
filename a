@@ -1,0 +1,6 @@
+git remote -v
+hub remote remove origin
+hub remote add origin
+git remote -v
+git branch -m master main
+git push --set-upstream origin main
