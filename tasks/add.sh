@@ -5,7 +5,7 @@ function btask.add.run() {
 
         return $( b.get "xp.config.help_message" )
     fi
-    source ${HOME}/developer/redis-bash/redis-bash-lib # include the library
+    source __REDIS_BASH_LIB__ # include the library
     exec 6<>/dev/tcp/localhost/6379                    # open the connection
         redis-client 6 SET $1 $LOCALPATH/$1
     exec 6>&-                                          # close the connection
