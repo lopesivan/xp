@@ -57,6 +57,10 @@
       "description": "Git push: username, password, how to avoid?"
     },
     {
+      "command": "nvim",
+      "description": "Clona repositório de configuração do NVIM."
+    },
+    {
       "command": "rm",
       "description": "remove um chave"
     }

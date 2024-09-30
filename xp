@@ -33,6 +33,9 @@ function run () {
         xinit)
             b.task.run "$@"
         ;;
+        xnvim)
+            b.task.run "$@"
+        ;;
         xtasks)
             echo enable $@:
             b.task.run "commands"
